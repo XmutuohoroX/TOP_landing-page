@@ -1,5 +1,119 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .logo{
     height: 50px;
     width: 50px;
     background: #1abc9c;
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+
+}
+.showcase .showcaseText h2{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.showcase .showcaseText p{
+    
+}
+.header,.footer,.showcase{
+    background: #1f2937;
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    gap: 18px;
+}
+.navigation ul li a,.showcase .showcaseText p{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+ul li {
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+.showcase{
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.showcase img{
+    width: 800px;
+}
+.showcase .showcaseText button{
+    display: block;
+    width: 150px;
+    padding: 8px 16px;
+    background: #3882f6;
+    border: none;
+    border-radius: 5px;
+    margin-top: 16px;
+    color: #e5e7eb;
+    font-size: 16px;
+    font-weight: bold;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+.about .aboutHeader{
+    text-align: center;
+    padding: 18px;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+    
+}
+.aboutGallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    text-align: center;
+}
+.aboutGallery .item{
+    max-width: 300px;
+    text-align: center;
+}
+.aboutGallery .item img{
+    width: 290px;
+    height: 221.5px;
+}
+/* .aboutGallery .item img:first-child{
+    width: 300px;
+    height: 200.5px;
+} */
+.testimonials{
+    background: #e5e7eb;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    height:400px;
+}
+.testimonialsContent{
+    max-width: 600px;
+}
+q{
+    font-weight: bold;
+    /* align-self: flex-end; */
+    text-align: right;
+    
+}
+
+
